@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Dancing+Script&family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./assets/css/global.css" />
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/accordeon.css" />
+    <link rel="stylesheet" href="./assets/css/skills.css" />
+    <link rel="stylesheet" href="./assets/css/languages.css" />
+    <link rel="stylesheet" href="./assets/css/portfolio.css" />
+    <link rel="stylesheet" href="./assets/css/experience.css" />
+
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <title>Portfólio - Wagner Leodoro</title>
+  </head>
+  <body>
+    <div class="gradient-top"></div>
+    <div class="main">
+      <header class="header">
+        <i class="ph-fill ph-dots-three-outline"></i>
+        <img
+          id="profile.photo"
+          class="photo"
+          src="https://i.pravatar.cc/300"
+          alt="Foto do perfil do usuário"
+        />
+        <h1 class="title">
+          Olá,<br />
+          eu sou <span id="profile.name">Carregando...</span>
+        </h1>
+        <div class="info">
+          <p>
+            <span><i class="ph-fill ph-user"></i></span>
+            <a id="profile.job" href="" target="_blank">Carregando...</a>
+          </p>
+          <p>
+            <span><i class="ph-fill ph-map-pin"></i></span>
+            <span id="profile.location">Carregando...</span>
+          </p>
+          <p>
+            <span><i class="ph-fill ph-whatsapp-logo"></i></span>
+            <a id="profile.phone" href="">Carregando...</a>
+          </p>
+          <p>
+            <span><i class="ph-fill ph-envelope"></i></span>
+            <a id="profile.email" href="">Carregando...</a>
+          </p>
+        </div>
+      </header>
+
+      <section class="accordeon">
+        <button class="trigger" type="button">
+          Skills
+          <i class="ph-thin ph-caret-up"></i>
+        </button>
+
+        <div class="content">
+          <div class="skills">
+            <section class="hard-skills">
+              <h3>Habilidades profissionais</h3>
+              <ul
+                id="profile.skills.hardSkills"
+                class="programing-languages"
+              ></ul>
+            </section>
+
+            <section class="soft-skills">
+              <h3>Habilidades pessoais:</h3>
+              <ul id="profile.skills.softSkills" class="personal">
+                <li>Facilidade com tarefas práticas</li>
+                <li>Comunicação</li>
+                <li>Trabalho em equipe</li>
+                <li>Organização</li>
+                <li>Comprometimento com resultados</li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section class="accordeon">
+        <button class="trigger" type="button">
+          Idiomas
+          <i class="ph-thin ph-caret-up"></i>
+        </button>
+        <div class="content">
+          <ul id="profile.languages" class="languages">
+            <li>
+              <i class="ph ph-check"></i>
+              Português
+            </li>
+            <li>
+              <i class="ph ph-check"></i>
+              Inglês
+            </li>
+            <li>
+              <i class="ph ph-check"></i>
+              Espanhol
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="accordeon">
+        <button class="trigger" type="button">
+          Portfólio
+          <i class="ph-thin ph-caret-up"></i>
+        </button>
+        <div class="content">
+          <ul id="profile.portfolio" class="portfolio">
+            <li>
+              <i class="ph-fill ph-github-logo"></i>
+              <span>Criando um App de lembrete</span>
+              <p>
+                <a href="http://www.google.com">
+                  https://www.dio.me/Coffee-Talk-Java-and-Opinions/GitHub-URL-find-use-example
+                </a>
+              </p>
+            </li>
+            <li>
+              <i class="ph-fill ph-github-logo"></i>
+              <span>Criando um App de lembrete</span>
+              <p>
+                <a href="http://www.google.com">
+                  https://www.dio.me/Coffee-Talk-Java-and-Opinions/GitHub-URL-find-use-example
+                </a>
+              </p>
+            </li>
+            <li>
+              <i class="ph-fill ph-github-logo"></i>
+              <span>Criando um App de lembrete</span>
+              <p>
+                <a href="http://www.google.com">
+                  https://www.dio.me/Coffee-Talk-Java-and-Opinions/GitHub-URL-find-use-example
+                </a>
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="accordeon">
+        <button class="trigger" type="button">
+          Experiência Profissional
+          <i class="ph-thin ph-caret-up"></i>
+        </button>
+        <div class="content">
+          <ul id="profile.professionalExperience" class="experience">
+            <li>
+              <p class="title">Front-end Developer / dio.me</p>
+              <p>
+                <i class="ph-thin ph-calendar-blank"></i>
+                <span class="date">Jan 2020 - Current</span>
+              </p>
+              <p class="description">
+                Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel
+                in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora
+                soluta ea et odio, unde doloremque repellendus iure, iste.
+              </p>
+            </li>
+            <li>
+              <p class="title">Front-end Developer / Philips</p>
+              <p>
+                <i class="ph-thin ph-calendar-blank"></i>
+                <span class="date">Jan 2017 - 2020</span>
+              </p>
+              <p class="description">
+                Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel
+                in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora
+                soluta ea et odio, unde doloremque repellendus iure, iste.
+              </p>
+            </li>
+            <li>
+              <p class="title">UX designer/ dio.me</p>
+              <p>
+                <i class="ph-thin ph-calendar-blank"></i>
+                <span class="period">Jan 2017 - 2020</span>
+              </p>
+              <p class="description">
+                Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel
+                in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora
+                soluta ea et odio, unde doloremque repellendus iure, iste.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <div class="gradient-bottom"></div>
+
+    <script src="./js/accordeon.js"></script>
+    <script src="./js/api.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

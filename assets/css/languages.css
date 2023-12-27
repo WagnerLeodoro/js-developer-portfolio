@@ -1,0 +1,18 @@
+.languages {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0;
+  padding: 0.5em;
+  list-style: none;
+}
+
+.languages li {
+  font-weight: 700;
+  padding: 1rem;
+}
+
+.languages li .ph-check {
+  margin-right: 0.5rem;
+}

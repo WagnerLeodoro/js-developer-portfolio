@@ -1,0 +1,20 @@
+.experience {
+  display: flex;
+  margin: 0;
+  padding: 0.5rem;
+  flex-direction: column;
+  list-style: none;
+}
+
+.experience li {
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.experience .title {
+  font-weight: 700;
+}
+.experience .period,
+.experience .description {
+  font-size: 0.875rem;
+}

@@ -1,0 +1,49 @@
+.accordeon {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+  width: 100%;
+  border: 1px solid #fff;
+  border-radius: 1rem;
+}
+
+.accordeon.open,
+.accordeon:hover {
+  background-color: #55569e;
+  border-color: #55569e;
+  transition: 0.3s;
+}
+
+.accordeon.open .ph-caret-up {
+  transform: rotate(180deg);
+  transition: 0.3s;
+}
+.accordeon .ph-caret-up {
+  transition: 0.3s;
+}
+
+.accordeon .trigger {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: start;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+}
+
+.accordeon .trigger:hover {
+  cursor: pointer;
+}
+
+.accordeon .content {
+  display: none;
+}
+
+.accordeon.open .content {
+  display: unset;
+}

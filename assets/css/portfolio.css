@@ -1,0 +1,15 @@
+.portfolio {
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem;
+}
+
+.portfolio li {
+  padding: 1rem;
+  font-weight: 700;
+}
+
+.portfolio a {
+  font-weight: 400;
+  font-size: 0.875rem;
+}

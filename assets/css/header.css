@@ -1,0 +1,60 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.ph-dots-three-outline {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 2rem;
+}
+
+.header .photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.header .title {
+  text-align: center;
+}
+
+.info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.info p {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.5rem;
+}
+
+.ph-user,
+.ph-map-pin,
+.ph-whatsapp-logo,
+.ph-envelope {
+  color: #55569e;
+  font-size: 18px;
+}
+
+@media (min-width: 768px) {
+  .header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .photo {
+    margin: 0 auto;
+    grid-row: 1/3;
+  }
+  .header .title {
+    text-align: left;
+  }
+}
