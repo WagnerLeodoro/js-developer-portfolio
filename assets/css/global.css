@@ -71,6 +71,16 @@ a {
   );
 }
 
+footer {
+  text-align: right;
+  padding: 0.5rem;
+  margin: 0;
+}
+
+footer img {
+  width: 100px;
+}
+
 @media (min-width: 768px) {
   .main {
     width: 70%;
